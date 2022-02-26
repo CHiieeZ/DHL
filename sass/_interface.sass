@@ -1,0 +1,130 @@
+.languages,.Countries
+    background-color: transparent
+    color: $light
+    border: none
+    outline: none
+    cursor: pointer
+    &>option
+        color: $dark
+.contact
+    display: flex
+    text-decoration: none
+    color: $light
+    &::before
+        content: ''
+        width: 16px
+        height: 16px
+        background:  url('../matirial/PSD/img/multiple-users-silhouette.svg') no-repeat center / cover
+        margin-right: 10px
+.button
+    border: none
+    text-transform: uppercase
+    font-size: 12px
+    line-height: 30px
+    font-family: 'Poppins-Bold'
+    &:hover
+        cursor: pointer
+    &--primary
+        background-color: $yellow
+        color: $orange
+        box-shadow: 0px 10px 18px  rgba($yellow, 0.4)
+        transition: box-shadow 0.3s
+        &:hover
+            box-shadow: none
+    &--outline
+        border: 3px solid $light
+        background-color: transparent
+        color: $light
+    &__icon
+        box-shadow: 0px 10px 18px rgba($orange, 0.4) 
+        width: 50px
+        height: 50px
+        border-radius: 50px
+        background: $orange 
+        display: flex
+        align-items: center
+        justify-content: center
+    &__service
+        border-radius: 50px
+        width: 70px
+        height: 70px
+        background: $yellow url('../matirial/PSD/img/play.svg') no-repeat center 
+        display: flex
+        margin: auto
+        margin-top: 50px
+    &__arrow
+        &__down
+            width: 50px
+            height: 50px
+            background: $yellow url('../matirial/PSD/img/arrow-down.svg') no-repeat center 
+            position: absolute
+            margin-top: -50px
+            margin-left: 160px
+    &__learn-more
+        color: $light
+        background-color: $orange-dark
+        border-radius: 50px
+        height: 50px
+        padding: 21px 31px
+        display: flex
+        justify-content: center
+        align-items: center
+        font-size: 12px
+        line-height: 80px
+        letter-spacing: 1px
+.search
+    width: 16px
+    height: 16px
+.location
+    outline: none
+    border: 0
+    padding: 12px 21px
+    color: $light
+    background-color: $orange-dark 
+    width: 210px
+    height: 50px
+    appearance: none
+    cursor: pointer
+.sponsorship
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-bottom: 70px
+.sponsor
+    width: 269.96px
+    height: 129px
+    border: 1px solid rgba($orange , 0.2)
+    display: flex
+    align-items: center
+    justify-content: center
+    &__bg
+        background:  $grey-light
+    &__logo1
+        width: 234px
+        height: 54px
+        background: $grey-light url("../matirial/PSD/img/themeforest-light-background.jpg") no-repeat center / 234px
+        filter: grayscale(100%)
+        background-blend-mode: multiply
+    &__logo2
+        width: 234px
+        height: 54px
+        background: $grey-light url("../matirial/PSD/img/photodune-light-background.jpg") no-repeat center / 234px
+        filter: grayscale(100%)
+        background-blend-mode: multiply
+    &__logo3
+        width: 234px
+        height: 54px
+        background: $grey-light url("../matirial/PSD/img/graphicriver-light-background.jpg") no-repeat center / 234px
+        filter: grayscale(100%)
+        background-blend-mode: multiply
+    &__logo4
+        width: 234px
+        height: 54px
+        background: $grey-light url("../matirial/PSD/img/codecanyon-light-background.jpg") no-repeat center / 234px
+        filter: grayscale(100%)
+        background-blend-mode: multiply
+    &:hover
+        border: 1px solid $orange 
+    
+        
+
